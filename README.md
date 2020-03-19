@@ -23,4 +23,17 @@ These scripts use the `sr1()` function in Scapy to inject a packet and wait for 
 
 #### Using Scapy to perform layer 3 discovery
 
+`pinger.py`
+
+#### Using Nmap to perform layer 3 discovery
+
+`nmap -sn address`<br>
+`nmap -sn 10.0.0.1-255` scan a range of ip addresses.
+
+#### Using hping3 to perform layer 3 discovery
+
+`hping3 address --imcp`<br>
+`hping3 address --imcp -c 2` specify the number of attempts to make.
+
+#### Using scapy to perform layer 4 discovery
 
